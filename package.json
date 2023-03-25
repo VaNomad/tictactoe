@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe",
+  "version": "0.0.1",
+  "description": "Test to make a tic tac toe game with Javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaNomad/tictactoe.git"
+  },
+  "keywords": [
+    "game",
+    "javascript",
+    "tailwind",
+    "setup",
+    "tailwind-setup"
+  ],
+  "author": "Sjur Hassel <sjur.hassel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaNomad/tictactoe/issues"
+  },
+  "homepage": "https://github.com/VaNomad/tictactoe#readme"
+}
